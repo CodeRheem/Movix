@@ -1,3 +1,17 @@
+<script setup>
+defineProps({
+  movie: {
+    type: Object,
+    required: true
+  }
+});
+
+const getYear = (date) => {
+  if (!date) return 'N/A';
+  return date.split('-')[0];
+};
+</script>
+
 <template>
   <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 cursor-pointer">
     <img 
@@ -21,17 +35,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-defineProps({
-  movie: {
-    type: Object,
-    required: true
-  }
-});
-
-const getYear = (date) => {
-  if (!date) return 'N/A';
-  return date.split('-')[0];
-};
-</script>
