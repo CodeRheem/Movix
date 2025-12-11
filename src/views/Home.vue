@@ -3,7 +3,7 @@
     <h1 class="text-4xl font-bold text-gray-800 mb-12">🎬 Discover Movies</h1>
     
     <!-- Trending Section -->
-    <MovieSection 
+    <MovieSection
       title="🔥 Trending Today"
       :movies="trendingMovies"
       :loading="loadingTrending"

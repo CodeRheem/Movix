@@ -20,7 +20,7 @@ defineProps({
 
 <template>
   <div class="mb-12">
-    <h2 class="text-2xl font-bold text-gray-800 mb-6">{{ title }}</h2>
+    <h2 class="border bg-purple-900 p-2 w-full mb-4 rounded-2xl text-2xl text-white text center">{{ title }}</h2>
     
     <div v-if="loading" class="text-center py-10">
       <p class="text-gray-600">Loading...</p>
