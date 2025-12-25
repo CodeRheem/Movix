@@ -57,7 +57,7 @@
             </div>
             
             <h2 class="text-2xl font-semibold mb-3">Overview</h2>
-            <p class="text-gray-200 text-lg leading-relaxed mb-8">
+            <p class="text-black text-lg leading-relaxed mb-8 p-3">
               {{ movie.overview }}
             </p>
           </div>
@@ -91,7 +91,7 @@
                 class="w-full h-40 object-cover rounded-lg mb-2"
               />
               <div v-else class="w-full h-40 bg-gray-300 rounded-lg mb-2 flex items-center justify-center">
-                <span class="text-gray-500">No Photo</span>
+                <span class="text-grey-500">No Photo</span>
               </div>
               <p class="font-semibold text-gray-800">{{ person.name }}</p>
               <p class="text-sm text-gray-600">{{ person.character }}</p>

@@ -18,11 +18,11 @@ const router = createRouter({
       name: 'search',
       component: () => import('../views/SearchView.vue')
     },
-    // {
-    //   path: '/favorites',
-    //   name: 'favorites',
-    //   component: () => import('../views/FavoritesView.vue')
-    // }
+    {
+      path: '/favorites',
+      name: 'favorites',
+      component: () => import('../views/FavoritesView.vue')
+    }
   ]
 })
 
